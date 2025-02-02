@@ -1,4 +1,4 @@
-# ZMK Firmware for Ergonaut One keyboard
+# ZMK Firmware for Ergonaut One keyboa
 
 This is a repository for a ZMK Firmware for Ergonaut One keyb
 
