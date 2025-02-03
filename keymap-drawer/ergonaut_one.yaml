@@ -1,5 +1,5 @@
 layers:
-  default:
+  MAIN:
   - {t: ']', h: Gui}
   - Q
   - W
@@ -36,13 +36,13 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: ↹, h: raise}
+  - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
+  - {t: ⏎, h: SYM}
+  - {t: Esc, h: SYM}
   - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
-  lower:
+  - {t: ⌦, h: NUM}
+  SYM:
   - {t: F1, h: Gui}
   - F2
   - F3
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
+  NUM:
   - {t: KP NUM, h: Gui}
   - KP SLASH
   - KP 7
@@ -128,8 +128,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  ADJ:
   - Boot
+  - '&studio_unlock'
   - ''
   - ''
   - ''
@@ -138,8 +139,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&studio_unlock'
   - Boot
   - BT CLR
   - BT 1
