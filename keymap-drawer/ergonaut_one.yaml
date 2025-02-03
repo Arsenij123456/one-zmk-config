@@ -58,12 +58,12 @@ layers:
   - ↹
   - ''
   - VOLUME DOWN
-  - ''
+  - '&studio_unlock'
   - ''
   - {t: adjust, h: toggle}
   - BT CLR ALL
   - ''
-  - '*'
+  - '&studio_unlock'
   - (
   - {t: ;, h: ':'}
   - '-'
