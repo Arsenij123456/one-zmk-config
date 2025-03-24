@@ -48,8 +48,8 @@ layers:
   - BT CLR
   - VOLUME UP
   - Boot
-  - {t: adjust, h: toggle}
-  - {t: adjust, h: sticky}
+  - ''
+  - ''
   - BT 1
   - BT 2
   - Boot
@@ -60,7 +60,7 @@ layers:
   - ''
   - VOLUME DOWN
   - '&studio_unlock'
-  - adjust
+  - ''
   - {t: adjust, h: toggle}
   - BT CLR ALL
   - ''
@@ -135,7 +135,7 @@ layers:
   - W
   - E
   - R
-  - {t: T, type: held}
+  - T
   - '1'
   - '2'
   - '3'
@@ -168,7 +168,7 @@ layers:
   - {t: default, h: toggle}
   - {t: Ctrl, type: held}
   - LEFT SHIFT
-  - ␣
+  - {t: ␣, type: held}
   - VOLUME UP
   - VOLUME DOWN
   - {t: B, h: lower}

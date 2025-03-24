@@ -17,6 +17,9 @@
 
 &mt { quick_tap_ms = <220>; };
 
+&tog {
+};
+
 / {
     macros {
         numdot: numdot {
@@ -100,8 +103,8 @@
 
         lower_layer {
             bindings = <
-&kp ESCAPE  &bt BT_CLR  &kp C_VOLUME_UP    &bootloader     &to 3                 &sl 3         &bt BT_SEL 0    &bt BT_SEL 1  &bootloader     &bt BT_SEL 3  &bt BT_SEL 4         &kp RIGHT_BRACKET
-&kp TAB     &none       &kp C_VOLUME_DOWN  &studio_unlock  &mo 3                 &tog 3        &bt BT_CLR_ALL  &none         &studio_unlock  &kp LPAR      &mt COLON SEMICOLON  &kp MINUS
+&kp ESCAPE  &bt BT_CLR  &kp C_VOLUME_UP    &bootloader     &none                 &none         &bt BT_SEL 0    &bt BT_SEL 1  &bootloader     &bt BT_SEL 3  &bt BT_SEL 4         &kp RIGHT_BRACKET
+&kp TAB     &none       &kp C_VOLUME_DOWN  &studio_unlock  &none                 &tog 3        &bt BT_CLR_ALL  &none         &studio_unlock  &kp LPAR      &mt COLON SEMICOLON  &kp MINUS
 &kp LALT    &none       &none              &none           &none                 &kp LEFT_WIN  &kp UP          &none         &none           &kp PERIOD    &mt QUESTION SLASH   &mt RALT MINUS
                                            &lt 1 LCTRL     &mt LEFT_SHIFT SPACE  &lt 2 ENTER   &kp LEFT        &kp DOWN      &kp RIGHT
             >;
