@@ -86,6 +86,16 @@
             bindings = <&kp DEL>;
             key-positions = <10 11>;
         };
+
+        game_layer {
+            bindings = <&to 3>;
+            key-positions = <0 12 24>;
+        };
+
+        defualt_layer {
+            bindings = <&to 0>;
+            key-positions = <1 13 25>;
+        };
     };
 
     keymap {
