@@ -123,14 +123,14 @@ layers:
   - )
   - '{'
   - '}'
-  - {t: Ctrl, h: adjust}
+  - {t: Ctrl, h: game}
   - {t: ␣, h: RIGHT SHIFT}
   - {t: ⏎, h: raise, type: held}
   - {t: Esc, h: raise}
   - {t: LEFT WIN, h: RIGHT SHIFT}
-  - {t: BACKSPACE, h: adjust}
-  adjust:
-  - Esc
+  - {t: BACKSPACE, h: game}
+  game:
+  - ↹
   - Q
   - W
   - E
@@ -142,7 +142,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - ↹
+  - LEFT ALT
   - A
   - S
   - D
@@ -154,7 +154,7 @@ layers:
   - L
   - ;
   - {t: F, h: raise}
-  - {t: LEFT ALT, h: lower}
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -167,8 +167,8 @@ layers:
   - /
   - {t: default, h: toggle}
   - {t: Ctrl, type: held}
-  - LEFT SHIFT
-  - {t: ␣, type: held}
+  - ␣
+  - {t: LEFT SHIFT, type: held}
   - VOLUME UP
   - VOLUME DOWN
   - {t: B, h: lower}
