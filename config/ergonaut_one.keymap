@@ -89,12 +89,17 @@
 
         game_layer {
             bindings = <&tog 4>;
-            key-positions = <0 12 24>;
+            key-positions = <0 12>;
         };
 
         defualt_layer {
             bindings = <&to 0>;
             key-positions = <1 13 25>;
+        };
+
+        to4 {
+            bindings = <&to 4>;
+            key-positions = <0 12>;
         };
     };
 

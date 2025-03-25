@@ -228,7 +228,9 @@ combos:
   k: Sft+LEFT ALT
 - p: [10, 11]
   k: ⌦
-- p: [0, 12, 24]
+- p: [0, 12]
   k: {t: '4', h: toggle}
 - p: [1, 13, 25]
   k: {t: default, h: toggle}
+- p: [0, 12]
+  k: {t: '4', h: toggle}
