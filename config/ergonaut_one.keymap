@@ -88,7 +88,7 @@
         };
 
         game_layer {
-            bindings = <&to 3>;
+            bindings = <&to 4>;
             key-positions = <0 12 24>;
         };
 
@@ -113,7 +113,7 @@
         lower_layer {
             bindings = <
 &kp ESCAPE  &bt BT_CLR  &kp C_VOLUME_UP    &bootloader     &none                 &none         &bt BT_SEL 0    &bt BT_SEL 1  &bootloader     &bt BT_SEL 3  &bt BT_SEL 4         &kp RIGHT_BRACKET
-&kp TAB     &none       &kp C_VOLUME_DOWN  &studio_unlock  &none                 &tog 3        &bt BT_CLR_ALL  &none         &studio_unlock  &kp LPAR      &mt COLON SEMICOLON  &kp MINUS
+&kp TAB     &none       &kp C_VOLUME_DOWN  &studio_unlock  &to 4                 &tog 4        &bt BT_CLR_ALL  &none         &studio_unlock  &kp LPAR      &mt COLON SEMICOLON  &kp MINUS
 &kp LALT    &none       &none              &none           &none                 &kp LEFT_WIN  &kp UP          &none         &none           &kp PERIOD    &mt QUESTION SLASH   &mt RALT MINUS
                                            &lt 1 LCTRL     &mt LEFT_SHIFT SPACE  &lt 2 ENTER   &kp LEFT        &kp DOWN      &kp RIGHT
             >;
@@ -134,6 +134,15 @@
 &kp TAB         &kp A  &kp S  &kp D      &kp F           &kp G      &kp H            &kp J              &kp K         &kp L         &kp SEMICOLON  &lt 2 F
 &lt 1 LEFT_ALT  &kp Z  &kp X  &kp C      &kp V           &kp B      &kp N            &kp M              &kp COMMA     &kp PERIOD    &kp SLASH      &tog 0
                               &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &lt 1 B
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &kp NUMBER_1  &kp NUMBER_2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };

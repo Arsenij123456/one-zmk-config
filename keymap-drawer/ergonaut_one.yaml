@@ -60,8 +60,8 @@ layers:
   - ''
   - VOLUME DOWN
   - '&studio_unlock'
-  - ''
-  - {t: adjust, h: toggle}
+  - {t: '4', h: toggle}
+  - {t: '4', h: toggle}
   - BT CLR ALL
   - ''
   - '&studio_unlock'
@@ -172,6 +172,49 @@ layers:
   - VOLUME UP
   - VOLUME DOWN
   - {t: B, h: lower}
+  '4':
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [25, 26]
   k: Ctl+C
@@ -186,6 +229,6 @@ combos:
 - p: [10, 11]
   k: ⌦
 - p: [0, 12, 24]
-  k: {t: adjust, h: toggle}
+  k: {t: '4', h: toggle}
 - p: [1, 13, 25]
   k: {t: default, h: toggle}
