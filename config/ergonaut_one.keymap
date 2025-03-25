@@ -17,7 +17,7 @@
 
 &mt { quick_tap_ms = <220>; };
 
-&tog { toggle-mode = "on"; };
+&tog { toggle-mode = "flip"; };
 
 / {
     macros {
