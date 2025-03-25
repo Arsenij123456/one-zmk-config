@@ -1,1 +1,1 @@
-#Это моя прошивка для ergonaut one 
+Это моя прошивка для ergonaut one 
