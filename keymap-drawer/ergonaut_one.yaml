@@ -172,6 +172,49 @@ layers:
   - VOLUME UP
   - VOLUME DOWN
   - {t: B, h: lower}
+  '4':
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - LEFT ALT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: F, h: raise}
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: default, h: toggle}
+  - Ctrl
+  - ␣
+  - LEFT SHIFT
+  - VOLUME UP
+  - VOLUME DOWN
+  - {t: B, h: lower}
 combos:
 - p: [25, 26]
   k: Ctl+C
