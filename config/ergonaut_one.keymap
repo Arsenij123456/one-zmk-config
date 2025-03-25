@@ -155,4 +155,13 @@
             then-layer = <ADJ>;
         };
     };
+/ {
+    behaviors {
+        tog_on: toggle_layer_on_only {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <4>;
+            display-name = "Toggle Layer On";
+            toggle-mode = "on";
+        };
+    };
 };
