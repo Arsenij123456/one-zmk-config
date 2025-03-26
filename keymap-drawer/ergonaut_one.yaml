@@ -46,7 +46,7 @@ layers:
   lower:
   - ''
   - ''
-  - VOLUME UP
+  - ''
   - Boot
   - VOLUME UP
   - ''
@@ -80,9 +80,9 @@ layers:
   - .
   - ''
   - ''
-  - {t: Ctrl, h: lower, type: held}
-  - {t: ␣, h: LEFT SHIFT}
-  - ''
+  - {t: Ctrl, type: held}
+  - ␣
+  - {t: ENTER, h: raise}
   - {t: ESCAPE, h: raise}
   - LEFT WIN
   - BACKSPACE
