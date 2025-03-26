@@ -123,12 +123,55 @@ layers:
   - )
   - '{'
   - '}'
-  - {t: Ctrl, h: game}
+  - {t: Ctrl, h: '4'}
   - {t: ␣, h: RIGHT SHIFT}
   - {t: ⏎, h: raise, type: held}
   - {t: Esc, h: raise}
   - {t: LEFT WIN, h: RIGHT SHIFT}
-  - {t: BACKSPACE, h: game}
+  - {t: BACKSPACE, h: '4'}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT 5
+  - BT 4
+  - BT 3
+  - BT 2
+  - BT 1
+  - BT CLR ALL
+  - BT CLR ALL
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   game:
   - ↹
   - Q
@@ -166,9 +209,9 @@ layers:
   - .
   - /
   - {t: default, h: toggle}
-  - {t: Ctrl, type: held}
+  - Ctrl
   - ␣
-  - {t: LEFT SHIFT, type: held}
+  - LEFT SHIFT
   - VOLUME UP
   - VOLUME DOWN
   - {t: B, h: lower}
