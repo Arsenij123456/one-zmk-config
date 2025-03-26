@@ -130,6 +130,8 @@ layers:
   - {t: LEFT WIN, h: RIGHT SHIFT}
   - {t: BACKSPACE, h: '4'}
   '4':
+  - Boot
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,10 +140,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - Boot
   - BT 5
   - BT 4
   - BT 3
