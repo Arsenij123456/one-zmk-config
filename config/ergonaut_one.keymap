@@ -112,9 +112,9 @@
 
         lower_layer {
             bindings = <
-&none  &none  &none  &bootloader     &kp C_VOLUME_UP  &none         &none         &none         &kp UP          &none       &none  &none
-&none  &none  &none  &studio_unlock  &kp C_VOL_DN     &none         &none         &kp LEFT      &kp DOWN_ARROW  &kp RIGHT   &none  &none
-&none  &none  &none  &none           &kp K_MUTE       &kp LEFT_WIN  &none         &none         &none           &kp PERIOD  &none  &none
+&none  &none  &none  &bootloader     &kp C_VOLUME_UP  &none         &none         &none         &kp UP         &none      &none  &none
+&none  &none  &none  &studio_unlock  &kp C_VOL_DN     &none         &none         &kp LEFT      &kp DOWN       &kp RIGHT  &none  &none
+&none  &none  &none  &none           &kp K_MUTE       &kp LEFT_WIN  &none         &none         &none          &none      &none  &none
                      &kp RCTRL       &kp SPACE        &lt 2 ENTER   &lt 2 ESCAPE  &kp LEFT_WIN  &kp BACKSPACE
             >;
         };
