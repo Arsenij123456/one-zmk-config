@@ -211,7 +211,7 @@ layers:
   - {t: default, h: toggle}
   - Ctrl
   - ␣
-  - LEFT SHIFT
+  - {t: LEFT SHIFT, h: raise}
   - VOLUME UP
   - VOLUME DOWN
   - {t: B, h: lower}
