@@ -91,11 +91,6 @@
             bindings = <&tog 4>;
             key-positions = <0 12>;
         };
-
-        defualt_layer {
-            bindings = <&to 0>;
-            key-positions = <1 13 25>;
-        };
     };
 
     keymap {
@@ -128,7 +123,7 @@
             >;
         };
 
-        layer_4 {
+        adjust_layer {
             bindings = <
 &bootloader   &studio_unlock  &trans        &trans        &trans        &trans          &trans          &trans        &trans        &trans        &studio_unlock  &bootloader
 &bt BT_SEL 4  &bt BT_SEL 3    &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR_ALL  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4

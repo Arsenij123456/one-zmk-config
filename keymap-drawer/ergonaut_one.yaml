@@ -123,13 +123,13 @@ layers:
   - )
   - '{'
   - '}'
-  - {t: Ctrl, h: '4'}
+  - {t: Ctrl, h: adjust}
   - {t: ␣, h: RIGHT SHIFT}
   - {t: ⏎, h: raise, type: held}
   - {t: Esc, h: raise}
   - {t: LEFT WIN, h: RIGHT SHIFT}
-  - {t: BACKSPACE, h: '4'}
-  '4':
+  - {t: BACKSPACE, h: adjust}
+  adjust:
   - Boot
   - '&studio_unlock'
   - {t: ▽, type: trans}
@@ -230,5 +230,3 @@ combos:
   k: ⌦
 - p: [0, 12]
   k: {t: game, h: toggle}
-- p: [1, 13, 25]
-  k: {t: default, h: toggle}
