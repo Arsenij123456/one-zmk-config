@@ -5,6 +5,6 @@
 # Tools
 
 - [ZMK](https://zmk.dev/docs/behaviors)
-- [ZMK Studio]([https://zmk.dev/docs/behaviors](https://zmk.studio/)
+- [ZMK Studio](https://zmk.dev/docs/behaviors)
 - [Keymap editor web](https://nickcoutsos.github.io/keymap-editor/)
 
