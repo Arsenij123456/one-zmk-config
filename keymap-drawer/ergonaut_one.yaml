@@ -44,25 +44,25 @@ layers:
   - {t: LEFT WIN, h: RIGHT SHIFT}
   - {t: BACKSPACE, h: lower}
   lower:
-  - ESCAPE
-  - BT CLR
+  - ''
+  - ''
   - VOLUME UP
   - Boot
   - ''
   - ''
-  - BT 1
-  - BT 2
-  - Boot
-  - BT 4
-  - BT 5
-  - ']'
-  - ↹
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - VOLUME DOWN
   - '&studio_unlock'
+  - ''
   - {t: default, h: toggle}
-  - {t: default, h: toggle}
-  - BT CLR ALL
+  - ''
   - ''
   - '&studio_unlock'
   - (
@@ -82,7 +82,7 @@ layers:
   - {t: '-', h: Alt}
   - {t: Ctrl, h: lower, type: held}
   - {t: ␣, h: LEFT SHIFT}
-  - {t: ENTER, h: raise}
+  - ''
   - ←
   - ↓
   - →
