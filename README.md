@@ -10,5 +10,5 @@
 
 - # Keymap
 
-![Keymap](keymap-drawer/invader42.svg)
+![Keymap](keymap-drawer/ergonaut_one.svg)
 
