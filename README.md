@@ -1,1 +1,1 @@
-Это моя прошивка для ergonaut one 
+# ERGONAUT ONE ZMK config
