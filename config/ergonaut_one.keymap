@@ -103,7 +103,7 @@
 
         default_layer {
             bindings = <
-&mt LCTRL RIGHT_BRACKET  &kp Q  &kp W  &kp E        &kp R            &kp T      &kp Y      &kp U                     &kp I            &kp O    &kp P     &mt RWIN LEFT_BRACKET
+&mt LCTRL RIGHT_BRACKET  &kp Q  &kp W  &kp E        &kp R            &kp T      &kp Y      &kp U                     &kp I            &kp O    &kp P     &kp LEFT_BRACKET
 &mt TAB GRAVE            &kp A  &kp S  &kp D        &kp F            &kp G      &kp H      &kp J                     &kp K            &kp L    &kp SEMI  &mt RCTRL SQT
 &mt LALT BSLH            &kp Z  &kp X  &kp C        &kp V            &kp B      &kp N      &kp M                     &kp COMMA        &kp DOT  &kp FSLH  &mt RALT MINUS
                                        &lt 1 LCTRL  &mt LSHFT SPACE  &lt 2 RET  &lt 2 ESC  &mt RIGHT_SHIFT LEFT_WIN  &lt 1 BACKSPACE
@@ -112,9 +112,9 @@
 
         lower_layer {
             bindings = <
-&none  &none  &kp C_VOLUME_UP    &bootloader     &none                 &none         &none     &none     &none           &none       &none                &none
-&none  &none  &kp C_VOLUME_DOWN  &studio_unlock  &none                 &none         &none     &none     &studio_unlock  &kp LPAR    &mt COLON SEMICOLON  &kp MINUS
-&none  &none  &none              &none           &none                 &kp LEFT_WIN  &kp UP    &none     &none           &kp PERIOD  &mt QUESTION SLASH   &mt RALT MINUS
+&none  &none  &kp C_VOLUME_UP    &bootloader     &kp C_VOLUME_UP       &none         &none     &none     &none           &none       &none                &none
+&none  &none  &kp C_VOLUME_DOWN  &studio_unlock  &kp C_VOL_DN          &none         &none     &none     &studio_unlock  &kp LPAR    &mt COLON SEMICOLON  &kp MINUS
+&none  &none  &none              &none           &kp K_MUTE            &kp LEFT_WIN  &kp UP    &none     &none           &kp PERIOD  &mt QUESTION SLASH   &mt RALT MINUS
                                  &lt 1 LCTRL     &mt LEFT_SHIFT SPACE  &none         &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
