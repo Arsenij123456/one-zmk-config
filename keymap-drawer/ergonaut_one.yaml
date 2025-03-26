@@ -61,14 +61,14 @@ layers:
   - VOLUME DOWN
   - '&studio_unlock'
   - ''
-  - {t: default, h: toggle}
+  - ''
   - ''
   - ''
   - '&studio_unlock'
   - (
   - {t: ;, h: ':'}
   - '-'
-  - Alt
+  - ''
   - ''
   - ''
   - ''
@@ -230,3 +230,5 @@ combos:
   k: ⌦
 - p: [0, 12]
   k: {t: game, h: toggle}
+- p: [37, 38]
+  k: Sft+Gui+S

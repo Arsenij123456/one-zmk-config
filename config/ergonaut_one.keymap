@@ -91,6 +91,11 @@
             bindings = <&tog 4>;
             key-positions = <0 12>;
         };
+
+        skren {
+            bindings = <&kp LS(LG(S))>;
+            key-positions = <37 38>;
+        };
     };
 
     keymap {
@@ -107,10 +112,10 @@
 
         lower_layer {
             bindings = <
-&none     &none  &kp C_VOLUME_UP    &bootloader     &none                 &none         &none     &none     &none           &none       &none                &none
-&none     &none  &kp C_VOLUME_DOWN  &studio_unlock  &none                 &tog 0        &none     &none     &studio_unlock  &kp LPAR    &mt COLON SEMICOLON  &kp MINUS
-&kp LALT  &none  &none              &none           &none                 &kp LEFT_WIN  &kp UP    &none     &none           &kp PERIOD  &mt QUESTION SLASH   &mt RALT MINUS
-                                    &lt 1 LCTRL     &mt LEFT_SHIFT SPACE  &none         &kp LEFT  &kp DOWN  &kp RIGHT
+&none  &none  &kp C_VOLUME_UP    &bootloader     &none                 &none         &none     &none     &none           &none       &none                &none
+&none  &none  &kp C_VOLUME_DOWN  &studio_unlock  &none                 &none         &none     &none     &studio_unlock  &kp LPAR    &mt COLON SEMICOLON  &kp MINUS
+&none  &none  &none              &none           &none                 &kp LEFT_WIN  &kp UP    &none     &none           &kp PERIOD  &mt QUESTION SLASH   &mt RALT MINUS
+                                 &lt 1 LCTRL     &mt LEFT_SHIFT SPACE  &none         &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 
